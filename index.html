@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elden Ring API</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<header>
+    <a href="#" class="logo">elden ring api</a>
+
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Pesquise</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+    <!-- OVERLAY AUTOMÁTICO PELO CSS -->
+
+    <div class="hero-text">
+        <h1>Elden Ring API</h1>
+
+        <p>
+            Elden Ring apresenta uma vasta galeria com mais de 200 chefes 
+            (incluindo variações e minibosses), com cerca de 11 a 16 principais 
+            essenciais para finalizar a campanha, destacando-se pela dificuldade 
+            elevada, design espetacular e lore profunda.
+        </p>
+
+        <button class="hero-btn">
+            Explorar agora
+        </button>
+    </div>
+
+    <div class="hero-image">
+        <img 
+            src="./img/Elden-Ring-Logo.png" 
+            alt="Elden Ring"
+        >
+    </div>
+
+</section> 
+
+<!-- CAROUSEL -->
+<section class="carousel-wrapper">
+    <div class="carousel">
+
+        <div class="card-3d">
+            <div><img src="https://picsum.photos/100/140?1"></div>
+            <div><img src="https://picsum.photos/100/140?2"></div>
+            <div><img src="https://picsum.photos/100/140?3"></div>
+            <div><img src="https://picsum.photos/100/140?4"></div>
+            <div><img src="https://picsum.photos/100/140?5"></div>
+            <div><img src="https://picsum.photos/100/140?6"></div>
+            <div><img src="https://picsum.photos/100/140?7"></div>
+            <div><img src="https://picsum.photos/100/140?8"></div>
+            <div><img src="https://picsum.photos/100/140?9"></div>
+            <div><img src="https://picsum.photos/100/140?10"></div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTROLES -->
+<section class="controls">
+
+    <div class="group">
+        <input 
+            id="search" 
+            class="input" 
+            type="search" 
+            placeholder="Digite o boss..."
+        >
+
+        <button id="btnSearch" class="btn-search">
+            Buscar
+        </button>
+    </div>
+
+    <button id="sortBtn" class="btn-sort">
+        A-Z
+    </button>
+
+</section>
+
+<!-- GRID -->
+<section id="grid" class="grid"></section>
+
+<!-- PAGINAÇÃO -->
+<section id="pagination" class="pagination"></section>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
